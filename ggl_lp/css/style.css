@@ -1,0 +1,286 @@
+@charset "UTF-8";
+#header{
+	padding: 10px 0 0 0;
+	position: fixed;
+	background-color: rgba(242,242,242,0.7);
+	z-index: 1000;
+	width: 100%;
+}
+#header_inner{
+	display: flex;
+	position: relative;
+}
+#header_logo_container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 92%;
+	margin: 0;
+}
+#header_logo{
+	width: 53%;
+	padding-left: 5%;
+}
+#header_inner .header_btn{
+	width: 35%;
+    margin-right:5px;
+}
+.zdo_drawer_nav a:hover li{
+  -moz-opacity:0.7; /* FF , Netscape */
+  opacity:0.7;
+  zoom:1; /* IE */
+  background-color: #63cee6;
+}
+#mainvisual{
+	padding: 43.2px 0 0 0;
+	position: relative;
+	background-color: #f2f2f2;
+}
+#siryou_btn_top{
+	width: 80%;
+	position: absolute;
+	top: 48.5%;
+    left: 50%;
+    transform: translateX(-47%);
+}
+img#point {
+    display: block;
+    background-color: #fff;
+    padding-top: 20px;
+}
+.small_icon{
+	width: 4%;
+}
+.small_title{
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+#introduction p{
+	letter-spacing: -0.01rem;
+	font-size: 0.80rem;
+}
+#point2{
+	background-color: #fff;
+}
+.large_icon{
+	width: 5%;
+}
+.large_title{
+	font-size: 1.6rem;
+	line-height: 1.4;
+}
+.point_img{
+	width: 40%;
+}
+.medium_title{
+	font-size: 1.2rem;
+}
+.align_left{
+	text-align: justify;
+}
+.pink_title{
+	width: 100%;
+	font-size: 1.2rem;
+	letter-spacing: -0.08rem;
+	color: #fff;
+	padding: 3px 0;
+	text-align: center;
+}
+.radius_30{
+	border-radius: 40px;
+}
+.tutor_container{
+	display: flex;
+	justify-content: space-between;
+}
+.tutor_img{
+	width: 26%;
+}
+.tutor_comment{
+	width: 70%;
+}
+ul#kouryu{
+	padding-left: 4.2%;
+}
+ul#kouryu li{
+	list-style-type: disc;
+	font-size: 1.05rem;
+	letter-spacing: -0.05rem;
+}
+.flexslider li{
+	background-color: #fdeff5;
+}
+.flexslider img{
+	margin-top: 12px;
+}
+#youtube iframe{
+	width: 100%;
+	vertical-align: bottom;
+}
+#ivent_kanso{
+	margin-left: -10px;
+}
+#voice{
+	background-color: #fff;
+}
+.img_75{
+	width: 75%;
+}
+.bg_blue{
+	letter-spacing: unset;
+}
+.siryo_sodan_title{
+    font-size: 1.5rem;
+    color: black;
+    letter-spacing: -0.15rem;
+}
+.siryo_sodan_title p{
+	font-size: 1.2rem;
+}
+img.line{
+	width: 60%;
+	vertical-align: middle;
+	margin: 30px auto;
+ }
+.siryo_sodan_btn{
+	width: 94%;
+}
+.siryo_sodan_btn img {
+    margin-top: -30px;
+    margin-left: 2%;
+}
+.siryo_sodan_text{
+    font-size: 1.0rem;
+    width: 88%;
+    color: black;
+    text-align: justify;
+}
+.pink_font_title{
+	font-size: 1.5rem;
+	text-align: center;
+	color: #df4d77;
+}
+.c_p_text{
+	font-size: 1.2rem;
+	text-align: justify;
+}
+.plus_icon{
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+}
+.course_img_container{
+	display: flex;
+	justify-content: space-between;
+}
+.course_img_inner{
+	width: 48%;
+}
+.site_title{
+	font-size: 1.0rem;
+	text-align: center;
+}
+.sns_container,
+.appli_container{
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	padding-top: 20px;
+	padding-left: 12%;
+	padding-right: 3%;
+}
+.appli_container{
+	padding-left: 5%;
+}
+.sns_icon{
+	width: 18%;
+	margin-left: 5%;
+}
+.fs110{
+	font-size: 1.05rem;
+}
+.fs100{
+	font-size: 1.00rem;
+}
+.sns_icon_large{
+	width: 36%;
+	padding-bottom: 20px;
+	margin-left: 5%;
+}
+.appli_container p{
+	padding-left: 10px;
+}
+.flow_text{
+	background-color: #fff;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    font-size: 1.05rem;
+    margin-top: -2px;
+}
+.arrow{
+	width: 7%;
+}
+.line_h190{
+	line-height: 1.9;
+}
+.media_logo{
+	width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.yahoo_logo{
+	width: 48%;
+}
+#media{
+	background-color: #fff;
+}
+.faq_box{
+	background-color: #fff;
+	padding: 30px 18px;
+	border-radius: 10px;
+}
+.faq_title{
+	font-size: 1.4rem;
+	text-align: center;
+	color: #df4d77;
+}
+.faq_box p{
+	text-align: justify;
+	font-size: 1.1rem;
+	letter-spacing: -0.05rem;
+}
+a.anchor{
+    display: block;
+    padding-top: 41.7px;
+    margin-top: -41.7px;
+}
+#footer{
+	background-color: #fff;
+}
+#footer .siryo_sodan_title{
+	font-size: 1.4rem;
+}
+#footer p{
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+#footer_tel{
+	width: 75%;
+}
+ul#footer_nav{
+	padding: 25px 0 30px 0;
+	font-size: 1.05rem;
+}
+ul#footer_nav li{
+	padding: 5px 0;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
